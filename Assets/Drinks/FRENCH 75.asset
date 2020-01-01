@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7c5d245973cbf8e45a02303be7e7cace, type: 3}
+  m_Name: FRENCH 75
+  m_EditorClassIdentifier: 
+  alkohols: 02000000
+  ingredients: 32000000200000000a000000
+  recipe: "30mL Gin\r\n30mL Simple Syrup\r\n22.5mL Fresh Lemon Juice\r\n90mL Champagne
+    or other sparkling wine \n\nShake mid before adding Champagne\r\nSmall stir after
+    adding it"

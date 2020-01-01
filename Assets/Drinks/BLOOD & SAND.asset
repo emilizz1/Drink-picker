@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7c5d245973cbf8e45a02303be7e7cace, type: 3}
+  m_Name: BLOOD & SAND
+  m_EditorClassIdentifier: 
+  alkohols: 06000000
+  ingredients: 360000000b00000038000000
+  recipe: '22.5mL Scotch Whisky
+
+    22.5mL Sweet Vermouth
+
+    22.5mL Heering
+    Cherry Liqueur
+
+    22.5mL Fresh Orange Juice
+
+
+    Shake mid'
