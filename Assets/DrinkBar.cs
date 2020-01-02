@@ -6,8 +6,6 @@ using UnityEngine.UI;
 public class DrinkBar : MonoBehaviour
 {
     [SerializeField] Text ingredientName;
-    [SerializeField] Sprite selectedSprite, unselectedSprite;
-    [SerializeField] Image selectImage;
 
     Drink thisDrink;
 

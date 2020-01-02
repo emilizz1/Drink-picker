@@ -3,7 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-[CreateAssetMenu(fileName = "Drink", menuName = "", order = 1)]
+[CreateAssetMenu(fileName = "Coctail", menuName = "", order = 1)]
 public class Drink : ScriptableObject, IComparable<Drink>
 {
     public enum Alkohol
