@@ -19,6 +19,7 @@ public class DrinkPicker : MonoBehaviour
     public List<Drink.Ingredient> currentlySelectedIngredient = new List<Drink.Ingredient>();
 
     RecipeDisplay recipeDisplay;
+    BackToStartButton backToStartButton;
 
     private void Awake()
     {
@@ -39,6 +40,7 @@ public class DrinkPicker : MonoBehaviour
         }
 
         recipeDisplay = FindObjectOfType<RecipeDisplay>();
+        backToStartButton = FindObjectOfType<BackToStartButton>();
 
         CreateAlkoholsList();
     }
@@ -57,6 +59,7 @@ public class DrinkPicker : MonoBehaviour
         backToAlkohols.SetActive(false);
         backToDrinks.SetActive(false);
         backToIngredients.SetActive(false);
+        backToStartButton.DisplayBackButton(true);
     }
 
     void CreatAlkoholList(List<Drink.Alkohol> items)
@@ -110,6 +113,7 @@ public class DrinkPicker : MonoBehaviour
         backToAlkohols.SetActive(true);
         backToDrinks.SetActive(false);
         backToIngredients.SetActive(false);
+        backToStartButton.DisplayBackButton(false);
     }
 
     void CreateIngredientList(List<Drink.Ingredient> items)
@@ -168,6 +172,7 @@ public class DrinkPicker : MonoBehaviour
         backToAlkohols.SetActive(false);
         backToDrinks.SetActive(false);
         backToIngredients.SetActive(true);
+        backToStartButton.DisplayBackButton(false);
     }
 
     void CreateDrinkList(List<Drink> items)
@@ -207,5 +212,6 @@ public class DrinkPicker : MonoBehaviour
         backToDrinks.SetActive(true);
         backToIngredients.SetActive(false);
         recipeDisplay.DisplayRecipe(drink.recipe);
+        backToStartButton.DisplayBackButton(false);
     }
 }
