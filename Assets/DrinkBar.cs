@@ -9,10 +9,17 @@ public class DrinkBar : MonoBehaviour
 
     Drink thisDrink;
 
-    public void PrepareBar(Drink drink)
+    public void PrepareBar(Drink drink, int missing = -1)
     {
         thisDrink = drink;
-        ingredientName.text = drink.name.ToString();
+        if (missing != -1)
+        {
+            ingredientName.text = drink.name.ToString() + " (" + missing + ")";
+        }
+        else
+        {
+            ingredientName.text = drink.name.ToString();
+        }
     }
 
     public void Pressed()
