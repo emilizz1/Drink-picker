@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7c5d245973cbf8e45a02303be7e7cace, type: 3}
   m_Name: BLUE HAWAII
   m_EditorClassIdentifier: 
-  alkohols: 0600000005000000
+  alkohols: 0200000004000000
   ingredients: 090000002e00000034000000
   recipe: '22.5mL White Rum
 
@@ -28,5 +28,5 @@ MonoBehaviour:
 
     Shake mid
 
-    Served with
-    crushed ice'
+    Served with crushed
+    ice'

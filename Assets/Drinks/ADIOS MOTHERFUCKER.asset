@@ -12,8 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7c5d245973cbf8e45a02303be7e7cace, type: 3}
   m_Name: ADIOS MOTHERFUCKER
   m_EditorClassIdentifier: 
-  alkohols: 05000000020000000300000004000000
-  ingredients: 3400000021000000
+  alkohols: 04000000010000000200000003000000
+  ingredients: 340000002100000009000000
   recipe: '22.5mL Vodka
 
     22.5mL Gin

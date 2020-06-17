@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7c5d245973cbf8e45a02303be7e7cace, type: 3}
   m_Name: VESPER
   m_EditorClassIdentifier: 
-  alkohols: 0200000005000000
+  alkohols: 0400000001000000
   ingredients: 0d000000
   recipe: '67.5mL Gin
 
@@ -21,5 +21,5 @@ MonoBehaviour:
     15mL Cocchi Americano
 
 
-    Mixing
-    glass, stir 20 -30 sec'
+    Mixing glass,
+    stir 20 -30 sec'

@@ -10,23 +10,25 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 7c5d245973cbf8e45a02303be7e7cace, type: 3}
-  m_Name: FRENCH RIVIERA
+  m_Name: EAST 8 HOLD UP
   m_EditorClassIdentifier: 
-  alkohols: 0100000003000000
-  ingredients: 200000001f000000320000003f000000
-  recipe: '40mL Cognac
+  alkohols: 0000000004000000
+  ingredients: 2e00000023000000320000004a000000
+  recipe: '45ml Vodka
 
-    15mL Gold Rum
+    15ml Aperol
 
-    15mL Fresh Lemon Juice
+    22.5ml Pineapple Juice
 
-    15mL
-    Honey Syrup 3:1
+    15ml Fresh
+    Lime Juice
 
-    15mL Simple Syrup 1:1
+    15ml Simple Syrup
 
-    Barspoon of Apricot Jam
+    5ml Passionfruit Syrup
 
 
-    Shake
-    mid'
+    Shake mid
+
+    Served
+    with Ice'

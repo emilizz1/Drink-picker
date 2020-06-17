@@ -12,18 +12,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7c5d245973cbf8e45a02303be7e7cace, type: 3}
   m_Name: GIN FIZZ
   m_EditorClassIdentifier: 
-  alkohols: 02000000
+  alkohols: 01000000
   ingredients: 20000000180000003200000033000000
   recipe: '60mL Gin
 
     22.5mL Fresh Lemon Juice
 
-    Fresh Egg White (half a
-    small egg)
+    Fresh Egg White (half a small
+    egg)
 
     22.5mL Simple Syrup
+
+    Dash of Soda
 
 
     Quick dry shake
 
-    Shake mid'
+    Shake
+    mid'

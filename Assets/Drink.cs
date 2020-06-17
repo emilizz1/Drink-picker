@@ -9,13 +9,13 @@ public class Drink : ScriptableObject, IComparable<Drink>
     public enum Alkohol
     {
         Aperol,
-        Brandy,
+        //Brandy,
         Gin,
         Rum,
         Tequila,
-        Vodka,
-        Wiskey,
-        Jagermeister
+        Vodka
+        //Wiskey,
+        //Jagermeister
     }
 
     public enum Ingredient
@@ -46,7 +46,7 @@ public class Drink : ScriptableObject, IComparable<Drink>
         DryVermouth,
         Egg,
         ElderflowerLiqueur,
-        FreshBasil,
+        Basil,
         GingerBeer,
         GrapefruitJuice,
         Grenadine,
@@ -91,7 +91,11 @@ public class Drink : ScriptableObject, IComparable<Drink>
         OrangeBitters,
         Pineapple,
         Strawberries,
-        OrangeMarmalade
+        OrangeMarmalade,
+        BlackcurrantLiquer,
+        Raspberries,
+        PassionfruitSyrup,
+        Bayleys
     }
 
     public List<Alkohol> alkohols;

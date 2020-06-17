@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7c5d245973cbf8e45a02303be7e7cace, type: 3}
   m_Name: WHITE LADY
   m_EditorClassIdentifier: 
-  alkohols: 02000000
+  alkohols: 01000000
   ingredients: 0e000000200000003200000018000000
   recipe: '45mL Gin
 
@@ -20,8 +20,8 @@ MonoBehaviour:
 
     22.5mL Fresh Lemon Juice
 
-    10mL
-    Sugar Syrup
+    10mL Sugar
+    Syrup
 
     Egg White
 

@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7c5d245973cbf8e45a02303be7e7cace, type: 3}
   m_Name: CANTARITOS TEQUILA
   m_EditorClassIdentifier: 
-  alkohols: 04000000
+  alkohols: 03000000
   ingredients: 380000001c000000230000003d00000031000000
   recipe: '60mL Reposado Tequila
 
@@ -25,8 +25,8 @@ MonoBehaviour:
 
     Dash of Grapefruit Soda
 
-    Pinch
-    of Salt
+    Pinch of
+    Salt
 
 
     Quick shake

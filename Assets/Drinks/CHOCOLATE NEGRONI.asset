@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7c5d245973cbf8e45a02303be7e7cace, type: 3}
   m_Name: CHOCOLATE NEGRONI
   m_EditorClassIdentifier: 
-  alkohols: 02000000
+  alkohols: 01000000
   ingredients: 080000003b0000003c000000
   recipe: '30mL Gin
 
@@ -20,11 +20,11 @@ MonoBehaviour:
 
     22.5mL Campari
 
-    7.5mL Creme
-    de Cacao - White preferred
+    7.5mL Creme de
+    Cacao - White preferred
 
     2-3 Dashes of Chocolate Bitters
 
 
-    Mixing
-    glass, stir 20 -30 sec'
+    Mixing glass,
+    stir 20 -30 sec'

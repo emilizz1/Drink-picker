@@ -271,7 +271,7 @@ MonoBehaviour:
   backToIngredients: {fileID: 79937837}
   backToDrinks: {fileID: 1617519679}
   currentlySelectedAlkohol: 
-  currentlySelectedIngredient: 
+  currentlySelectedIngredient: 010000000200000003000000040000000700000008000000090000000a0000000f0000001300000014000000180000001b0000001c0000001d0000001f0000002000000021000000220000002300000024000000250000002700000028000000290000002a0000002c0000002e0000003000000031000000320000003300000034000000350000003600000037000000380000003a0000003e00000044000000460000003d0000001a000000
   haveEverythingDrinks: []
   missingOnePartDrinks: []
   missingTwoPartDrinks: []
@@ -749,7 +749,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 6373555}
-        m_MethodName: CreateIngredientsList
+        m_MethodName: CreateAlkoholsList
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -1279,6 +1279,7 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
   m_RaycastTarget: 1
+  m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -2538,6 +2539,7 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
   m_RaycastTarget: 1
+  m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -2855,6 +2857,7 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
+  m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -3268,6 +3271,7 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
+  m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []

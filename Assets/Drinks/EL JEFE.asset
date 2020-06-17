@@ -12,16 +12,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7c5d245973cbf8e45a02303be7e7cace, type: 3}
   m_Name: EL JEFE
   m_EditorClassIdentifier: 
-  alkohols: 04000000
+  alkohols: 03000000
   ingredients: 0f0000001300000003000000
   recipe: '40mL Reposado Tequila
 
-    20mL Mr Black Coffee Liqueur
+    20mL Coffee Liqueur
 
-    30mL Cold
-    Brew Coffee
+    30mL Cold Brew Coffee
 
-    10mL Agave Syrup
+    10mL
+    Agave Syrup
 
 
     Shake mid'

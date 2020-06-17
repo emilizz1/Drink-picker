@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7c5d245973cbf8e45a02303be7e7cace, type: 3}
   m_Name: MOJITO
   m_EditorClassIdentifier: 
-  alkohols: 03000000
+  alkohols: 02000000
   ingredients: 23000000320000002500000033000000
   recipe: '60mL White Rum
 
@@ -20,13 +20,13 @@ MonoBehaviour:
 
     22.5mL Sugar Syrup
 
-    6-8
-    Mint Leaves
+    6-8 Mint
+    Leaves
 
     60mL Soda
 
 
     Built straigt to the glass
 
-    Crush mint
-    after pouring Juice and Rum '
+    Crush mint after
+    pouring Juice and Rum '

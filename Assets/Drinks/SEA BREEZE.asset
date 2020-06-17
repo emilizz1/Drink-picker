@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7c5d245973cbf8e45a02303be7e7cace, type: 3}
   m_Name: SEA BREEZE
   m_EditorClassIdentifier: 
-  alkohols: 05000000
+  alkohols: 04000000
   ingredients: 150000001c000000
   recipe: '60mL Vodka
 

@@ -10,20 +10,20 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 7c5d245973cbf8e45a02303be7e7cace, type: 3}
-  m_Name: SANTA'S WHISKEY FLIP
+  m_Name: LEMON DROP MARTINI
   m_EditorClassIdentifier: 
-  alkohols: 06000000
-  ingredients: 010000003200000018000000
-  recipe: '60mL Cinnamon-infused Bourbon Whiskey
+  alkohols: 04000000
+  ingredients: 0e0000002000000032000000
+  recipe: '60ml Vodka
 
-    15mL Amaretto
+    7.5ml Cointreau
 
-    7.5mL
+    22.5ml Fresh Lemon Juice
+
+    22.5ml
     Simple Syrup
 
-    Whole Egg
 
-
-    Quick dry shake
+    Salt rim
 
     Shake mid'

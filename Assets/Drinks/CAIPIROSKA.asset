@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7c5d245973cbf8e45a02303be7e7cace, type: 3}
   m_Name: CAIPIROSKA
   m_EditorClassIdentifier: 
-  alkohols: 05000000
+  alkohols: 04000000
   ingredients: 2200000035000000
   recipe: "60mL Vodka\r\n\xBE to 1 Lime\r\n2-3 Teaspoons of Sugar\n\nQuick shake\r\nServed
     with 8ths of lime"

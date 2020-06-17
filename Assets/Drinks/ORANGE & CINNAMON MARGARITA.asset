@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7c5d245973cbf8e45a02303be7e7cace, type: 3}
   m_Name: ORANGE & CINNAMON MARGARITA
   m_EditorClassIdentifier: 
-  alkohols: 0400000003000000
+  alkohols: 0300000002000000
   ingredients: 230000003a000000320000004400000028000000
   recipe: '60mL Reposado Tequila
 
@@ -27,13 +27,12 @@ MonoBehaviour:
 
     Dash of Orange Bitters
 
-    2-3
-    Wedges of Orange
+    2-3 Wedges
+    of Orange
 
 
     Muddle the orange wedges
 
     Shake mid
 
-    Add Crushed
-    Ice'
+    Add Crushed Ice'

@@ -10,9 +10,18 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 7c5d245973cbf8e45a02303be7e7cace, type: 3}
-  m_Name: AVIATOR
+  m_Name: MR HOWELL
   m_EditorClassIdentifier: 
-  alkohols: 02000000
-  ingredients: 200000002600000011000000
-  recipe: "60mL London Dry Gin\r\n22.5mL Fresh Lemon Juice\r\n15mL Maraschino Liqueur\r\n1
-    Barspoon Cr\xE8me de Violette\n\nQuick shake"
+  alkohols: 0200000006000000
+  ingredients: 2300000024000000
+  recipe: '45mL Gold Rum
+
+    15mL Peaty Islay Scotch Whisky
+
+    22.5mL Fresh Lime
+    Juice
+
+    15mL Maple Syrup
+
+
+    Shake mid'

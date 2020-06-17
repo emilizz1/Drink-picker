@@ -12,14 +12,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7c5d245973cbf8e45a02303be7e7cace, type: 3}
   m_Name: CHOCOLATE WHITE RUSSIAN
   m_EditorClassIdentifier: 
-  alkohols: 05000000
+  alkohols: 04000000
   ingredients: 0f0000003b0000003900000027000000
   recipe: '60mL Vanilla Vodka
 
     22.5mL Coffee Liqueur
 
-    7.5mL White Creme
-    de Cacao
+    7.5mL White Creme de
+    Cacao
 
     15mL Cream
 
