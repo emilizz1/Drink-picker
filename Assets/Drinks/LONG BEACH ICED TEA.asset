@@ -10,30 +10,29 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 7c5d245973cbf8e45a02303be7e7cace, type: 3}
-  m_Name: RUSSIAN SPRING PUNCH
+  m_Name: LONG BEACH ICED TEA
   m_EditorClassIdentifier: 
-  alkohols: 04000000
-  ingredients: 300000004800000020000000320000000a00000049000000
-  recipe: '45mL Vodka
+  alkohols: 04000000030000000100000002000000
+  ingredients: 0f000000150000002300000032000000
+  recipe: '15mL Vodka
 
-    15mL Framboise (Raspberry) Liqueur
+    15mL Tequila
 
-    15mL Creme de
-    Cassis (Blackcurrant Liqueur)
+    15mL Gin
 
-    22.5mL Fresh Lemon Juice
+    15mL Rum
 
-    15mL Simple
+    15mL Coffee
+    Liqueur
+
+    60mL Cranberry Juice
+
+    30mL Fresh Lime Juice
+
+    22.5mL Simple
     Syrup
-
-    Sparkling Wine
-
-    Raspberries
 
 
     Shake mid
 
-    Served with
-    Ice
-
-    Add sparkling wine'
+    Served with Ice'

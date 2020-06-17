@@ -10,23 +10,15 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 7c5d245973cbf8e45a02303be7e7cace, type: 3}
-  m_Name: IT'S ALWAYS SUNNY
+  m_Name: OUTRIGGER
   m_EditorClassIdentifier: 
-  alkohols: 04000000
-  ingredients: 0d000000380000002000000044000000
-  recipe: '45mL Vodka
+  alkohols: 02000000
+  ingredients: 3700000020000000
+  recipe: '60 Aged Rum
 
-    15mL Cocchi Americano (or Dry Vermouth)
+    30 Triple Sec
 
-    22.5mL
-    Fresh Orange Juice
-
-    22.5mL Fresh Lemon Juice
-
-    2 Dashes of Orange Bitters
+    15 Lemon Juice
 
 
-    Shake
-    mid
-
-    Served with Ice'
+    Shake mid'

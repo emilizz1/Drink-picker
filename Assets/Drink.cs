@@ -95,7 +95,16 @@ public class Drink : ScriptableObject, IComparable<Drink>
         BlackcurrantLiquer,
         Raspberries,
         PassionfruitSyrup,
-        Bayleys
+        Bayleys,
+        Suze,
+        GingerSyrup,
+        EarlyGreyTea,
+        PassionfruitLiqueur,
+        Cucumber,
+        DonsMix,
+        SageLeaves,
+        MontenegroAmaro,
+        VelvetFalernum
     }
 
     public List<Alkohol> alkohols;

@@ -10,29 +10,16 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 7c5d245973cbf8e45a02303be7e7cace, type: 3}
-  m_Name: LONG BEACH ICED TEA
+  m_Name: BARBADOS
   m_EditorClassIdentifier: 
-  alkohols: 04000000030000000100000002000000
-  ingredients: 0f000000150000002300000032000000
-  recipe: '15mL Vodka
+  alkohols: 02000000
+  ingredients: 5400000023000000
+  recipe: '45ml Dark Rum
 
-    15mL Tequila
+    30ml Velvet Falernum
 
-    15mL Gin
-
-    15mL Rum
-
-    15mL
-    Coffee Liqueur
-
-    60mL Cranberry Juice
-
-    30mL Fresh Lime Juice
-
-    22.5mL
-    Simple Syrup
+    22.5ml Fresh Lime Juice
 
 
-    Shake mid
-
-    Served with Ice'
+    Shake
+    mid'
