@@ -1,0 +1,41 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7c5d245973cbf8e45a02303be7e7cace, type: 3}
+  m_Name: SPICED PINEAPPLE MOJITO
+  m_EditorClassIdentifier: 
+  alkohols: 03000000
+  ingredients: 2300000032000000250000004500000033000000
+  recipe: '60mL Spiced Rum
+
+    30mL Fresh Lime Juice
+
+    22.5ml Simple Syrup
+
+    6-10
+    Mint Leaves
+
+    4-6 Cubes of Fresh Pineapple
+
+    Soda Water
+
+
+    Built straigt
+    to the glass
+
+    Add mints and pineapple (in that order) to the glass
+
+    Then
+    muddle them
+
+    Quick Stir With Ice
+
+    Finish with Crushed Ice and Soda'

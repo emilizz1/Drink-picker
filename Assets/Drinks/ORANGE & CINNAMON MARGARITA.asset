@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7c5d245973cbf8e45a02303be7e7cace, type: 3}
+  m_Name: ORANGE & CINNAMON MARGARITA
+  m_EditorClassIdentifier: 
+  alkohols: 0400000003000000
+  ingredients: 230000003a000000320000004400000028000000
+  recipe: '60mL Reposado Tequila
+
+    7.5mL Gold Rum
+
+    22.5mL Fresh Lime Juice
+
+    15mL
+    Cinnamon Syrup
+
+    7.5mL Simple Syrup
+
+    Dash of Orange Bitters
+
+    2-3
+    Wedges of Orange
+
+
+    Muddle the orange wedges
+
+    Shake mid
+
+    Add Crushed
+    Ice'

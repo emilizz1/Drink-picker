@@ -174,6 +174,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   drinks:
+  - {fileID: 11400000, guid: 49e669d5013d637418ed6aced9d3aa4c, type: 2}
+  - {fileID: 11400000, guid: 4ea77ab88aeeb084ab6486aeb3fe4084, type: 2}
   - {fileID: 11400000, guid: 9d3d03b2cfb3d3a478a93d27681e5766, type: 2}
   - {fileID: 11400000, guid: 603fe36a20160e44199fe1a72955b03b, type: 2}
   - {fileID: 11400000, guid: 29f22d79adc99574e89e21ddde157da4, type: 2}
@@ -188,12 +190,14 @@ MonoBehaviour:
   - {fileID: 11400000, guid: f56280968490b664d95e9f556a0f82cf, type: 2}
   - {fileID: 11400000, guid: 66a657f0cca6baf43a57c8e159b1c775, type: 2}
   - {fileID: 11400000, guid: 604b7496d3f02804681ff5d8ca65e441, type: 2}
+  - {fileID: 11400000, guid: 87d936a36086f6a4eb5c0421b2de98f0, type: 2}
   - {fileID: 11400000, guid: a0644d4390774ce4a8f2b907c36fa351, type: 2}
   - {fileID: 11400000, guid: 773aff425f4987a478bf5dfa9530b8f9, type: 2}
   - {fileID: 11400000, guid: 0b586496ef370bf46b44e6ca753b340f, type: 2}
   - {fileID: 11400000, guid: b0f8fb6a3fb499d4eb7e107630264ebe, type: 2}
   - {fileID: 11400000, guid: 5e7c12d701ed7c944a18df78df220e35, type: 2}
   - {fileID: 11400000, guid: 4d3781e78faf14c4ebd3c35eb5b3cb07, type: 2}
+  - {fileID: 11400000, guid: 4d8339977309f974c8ab1ca902f45410, type: 2}
   - {fileID: 11400000, guid: 83964e37cecaefb4fa3b8533b1bd48ff, type: 2}
   - {fileID: 11400000, guid: cf665824d3db90443a1acf3f87dacb6a, type: 2}
   - {fileID: 11400000, guid: 8b8a678c39c16c14986ae7542067324a, type: 2}
@@ -201,6 +205,8 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 639dbb975a4de88448e04bc499dc674a, type: 2}
   - {fileID: 11400000, guid: 632a424c337e3194fb09cc30dfc1f5cb, type: 2}
   - {fileID: 11400000, guid: 612c530b6a6aa3a4aab21809c89f4cce, type: 2}
+  - {fileID: 11400000, guid: ed0a698b0939b7f43bd8b75b5361ea9f, type: 2}
+  - {fileID: 11400000, guid: c1f646b36c7ccac4295ed58bda596635, type: 2}
   - {fileID: 11400000, guid: a7c519ebd183c9d46a6cf7fd717c182a, type: 2}
   - {fileID: 11400000, guid: 8f5078423acc9c24ea6315babde74735, type: 2}
   - {fileID: 11400000, guid: 952e6adc1b797a94d892f54e4e431c26, type: 2}
@@ -216,10 +222,14 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 2c89a9101d498214fadb225caaa36c84, type: 2}
   - {fileID: 11400000, guid: d88f578e436b697449df11dd27fc048e, type: 2}
   - {fileID: 11400000, guid: 00ccf564b2b184048819886c1e163a97, type: 2}
+  - {fileID: 11400000, guid: 7851371524937384ea11f480ec84656b, type: 2}
   - {fileID: 11400000, guid: a3b8140149f51f24d9954bd88bd87804, type: 2}
+  - {fileID: 11400000, guid: f207a69985ac943408385eac3d44a0b0, type: 2}
   - {fileID: 11400000, guid: 0a7a2f5d5b5310a4488b52c99094b173, type: 2}
   - {fileID: 11400000, guid: 7432b308a3a77ac4794f42ca9b2b9a28, type: 2}
   - {fileID: 11400000, guid: cc4b4cc54f24ccc46bbdc2b60b0a013e, type: 2}
+  - {fileID: 11400000, guid: 859c30787a9ce0f4eb08af0fb32a00e8, type: 2}
+  - {fileID: 11400000, guid: 1599bbd0bd68aa845aefca1af7d61f4c, type: 2}
   - {fileID: 11400000, guid: 71b49fa7641f70240a3593d902edb440, type: 2}
   - {fileID: 11400000, guid: eb51256ed5a8c0b46a03e4597a25a1f6, type: 2}
   - {fileID: 11400000, guid: b5a00c0da19b9e14680982cff98d6318, type: 2}
@@ -233,8 +243,12 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 57f4b6316042832488b4640e4836c3bb, type: 2}
   - {fileID: 11400000, guid: 38dc5c80f0f20bb48b3a27c069fd117f, type: 2}
   - {fileID: 11400000, guid: 1bd43e62f8fdb9346bd4e9436dbc0bc4, type: 2}
+  - {fileID: 11400000, guid: e9d30911777ef684fbc4554a1b84caa5, type: 2}
   - {fileID: 11400000, guid: 58e381041350d814bbac617b3f5012b9, type: 2}
+  - {fileID: 11400000, guid: 2c1f06bc166f1c148913f402370b6c15, type: 2}
   - {fileID: 11400000, guid: a7ebfdfe6a1db4b4387628bf5b0a60eb, type: 2}
+  - {fileID: 11400000, guid: e543241e632825e418afed35cceddf11, type: 2}
+  - {fileID: 11400000, guid: 40661a27b983f0844b2f2619951026de, type: 2}
   - {fileID: 11400000, guid: cad8b90cffe74a04682c44604b34562c, type: 2}
   - {fileID: 11400000, guid: 042d57adb99b4534b934bb42d5055b24, type: 2}
   - {fileID: 11400000, guid: 7e50c600c8a75b34aa1b6d7bd4555ed5, type: 2}
@@ -303,6 +317,7 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 0}
   m_RaycastTarget: 1
+  m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -445,6 +460,7 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
+  m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -641,6 +657,7 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
   m_RaycastTarget: 1
+  m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -754,6 +771,7 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
+  m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -882,6 +900,7 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
+  m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -1029,6 +1048,7 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
+  m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -1063,7 +1083,7 @@ GameObject:
   - component: {fileID: 311024280}
   - component: {fileID: 311024279}
   m_Layer: 5
-  m_Name: AlkoholBar (1)
+  m_Name: Shot Button
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1096,7 +1116,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 311024277}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
   m_Name: 
@@ -1178,8 +1198,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 0.6}
   m_RaycastTarget: 1
+  m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -1425,6 +1446,7 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
+  m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -1515,8 +1537,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
+  m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 0.6}
   m_RaycastTarget: 1
+  m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -1646,6 +1669,7 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 0}
   m_RaycastTarget: 1
+  m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -1847,6 +1871,7 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
+  m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -1913,6 +1938,7 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
   m_RaycastTarget: 1
+  m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -2039,7 +2065,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 6373555}
-        m_MethodName: CreateIngredientsList
+        m_MethodName: CreateDrinksList
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -2064,6 +2090,7 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
+  m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -2118,6 +2145,7 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
   m_RaycastTarget: 1
+  m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -2512,6 +2540,7 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
+  m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -2585,6 +2614,7 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
   m_RaycastTarget: 1
+  m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -2698,6 +2728,7 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
+  m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -2805,6 +2836,7 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
+  m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -2999,6 +3031,7 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
+  m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -3127,6 +3160,7 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
+  m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -3215,6 +3249,7 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
+  m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -3288,6 +3323,7 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
   m_RaycastTarget: 1
+  m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -3328,6 +3364,7 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
+  m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -3395,6 +3432,7 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
   m_RaycastTarget: 1
+  m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -3433,7 +3471,7 @@ GameObject:
   - component: {fileID: 6706051343277584}
   - component: {fileID: 7638581757130823125}
   m_Layer: 5
-  m_Name: AlkoholBar
+  m_Name: Alkohol Button
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

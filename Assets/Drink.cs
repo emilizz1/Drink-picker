@@ -85,7 +85,13 @@ public class Drink : ScriptableObject, IComparable<Drink>
         LilletBlanc,
         ApricotJam,
         YellowChartreuse,
-        BananaLiqueur
+        BananaLiqueur,
+        MidoriMelonLiqueur,
+        LilletRouge,
+        OrangeBitters,
+        Pineapple,
+        Strawberries,
+        OrangeMarmalade
     }
 
     public List<Alkohol> alkohols;
