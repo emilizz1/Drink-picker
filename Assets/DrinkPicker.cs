@@ -1,5 +1,6 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using System.Reflection;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -17,9 +18,14 @@ public class DrinkPicker : MonoBehaviour
     List<Drink.Alkohol> alkohols = new List<Drink.Alkohol>();
     public List<Drink.Alkohol> currentlySelectedAlkohol = new List<Drink.Alkohol>();
     public List<Drink.Ingredient> currentlySelectedIngredient = new List<Drink.Ingredient>();
+    public List<Drink> haveEverythingDrinks = new List<Drink>();
+    public List<Drink> missingOnePartDrinks = new List<Drink>();
+    public List<Drink> missingTwoPartDrinks = new List<Drink>();
 
     RecipeDisplay recipeDisplay;
     BackToStartButton backToStartButton;
+
+    bool showingMissingOne, showingMissingTwo;
 
     private void Awake()
     {
@@ -137,35 +143,44 @@ public class DrinkPicker : MonoBehaviour
 
         header.text = "Choose what drink to make";
 
-        List<Drink> items = new List<Drink>();
+        haveEverythingDrinks = new List<Drink>();
+        missingOnePartDrinks = new List<Drink>();
+        missingTwoPartDrinks = new List<Drink>();
+
         foreach (Drink drink in drinks)
         {
-            bool selectedAllAlkohols = true;
+            int missingParts = 0;
             foreach (Drink.Alkohol alkohol in drink.alkohols)
             {
                 if (!currentlySelectedAlkohol.Contains(alkohol))
                 {
-                    selectedAllAlkohols = false;
+                    missingParts++;
                 }
             }
-            if (selectedAllAlkohols)
+            foreach (Drink.Ingredient ingredient in drink.ingredients)
             {
-                bool allIngredientsPicked = true;
-                foreach (Drink.Ingredient ingredient in drink.ingredients)
+                if (!currentlySelectedIngredient.Contains(ingredient))
                 {
-                    if (!currentlySelectedIngredient.Contains(ingredient))
-                    {
-                        allIngredientsPicked = false;
-                    }
-                }
-                if (allIngredientsPicked)
-                {
-                    items.Add(drink);
+                    missingParts++;
                 }
             }
+
+            switch (missingParts)
+            {
+                case (0):
+                    haveEverythingDrinks.Add(drink);
+                    break;
+                case (1):
+                    missingOnePartDrinks.Add(drink);
+                    break;
+                case (2):
+                    missingTwoPartDrinks.Add(drink);
+                    break;
+            }
+
         }
 
-        CreateDrinkList(items);
+        CreateDrinkList();
 
         alkoholNextButton.SetActive(false);
         ingredientNextButton.SetActive(false);
@@ -175,21 +190,64 @@ public class DrinkPicker : MonoBehaviour
         backToStartButton.DisplayBackButton(false);
     }
 
-    void CreateDrinkList(List<Drink> items)
+    void CreateDrinkList()
     {
-        if (items.Count > 0)
+        if (haveEverythingDrinks.Count > 0)
         {
-            items.Sort();
+            haveEverythingDrinks.Sort();
+        } 
+        if (missingOnePartDrinks.Count > 0)
+        {
+            missingOnePartDrinks.Sort();
         }
+        if (missingTwoPartDrinks.Count > 0)
+        {
+            missingTwoPartDrinks.Sort();
+        }
+
+        int itemCount = haveEverythingDrinks.Count;
+        if (showingMissingOne)
+        {
+            itemCount += missingOnePartDrinks.Count;
+        }
+        if (showingMissingTwo)
+        {
+            itemCount += missingTwoPartDrinks.Count;
+        }
+
         float stepSize = drinkBar.GetComponent<RectTransform>().sizeDelta.y + 25f;
-        content.GetComponent<RectTransform>().sizeDelta = new Vector2(content.GetComponent<RectTransform>().sizeDelta.x, stepSize * items.Count - 25f);
+        foreach(DrinkBar obj in content.GetComponentsInChildren<DrinkBar>())
+        {
+            Destroy(obj.gameObject);
+        }
+        content.GetComponent<RectTransform>().sizeDelta = new Vector2(content.GetComponent<RectTransform>().sizeDelta.x, stepSize * itemCount - 25f);
         float currentStep = (content.GetComponent<RectTransform>().sizeDelta.y / 2f) - (drinkBar.GetComponent<RectTransform>().sizeDelta.y / 2f);
-        foreach (Drink item in items)
+        foreach (Drink item in haveEverythingDrinks)
         {
             GameObject bar = Instantiate(drinkBar, content.transform);
             bar.GetComponent<RectTransform>().anchoredPosition = new Vector2(0f, currentStep);
             currentStep -= stepSize;
             bar.GetComponent<DrinkBar>().PrepareBar(item);
+        }
+        if (showingMissingOne)
+        {
+            foreach (Drink item in missingOnePartDrinks)
+            {
+                GameObject bar = Instantiate(drinkBar, content.transform);
+                bar.GetComponent<RectTransform>().anchoredPosition = new Vector2(0f, currentStep);
+                currentStep -= stepSize;
+                bar.GetComponent<DrinkBar>().PrepareBar(item, 1);
+            }
+        }
+        if (showingMissingTwo)
+        {
+            foreach (Drink item in missingTwoPartDrinks)
+            {
+                GameObject bar = Instantiate(drinkBar, content.transform);
+                bar.GetComponent<RectTransform>().anchoredPosition = new Vector2(0f, currentStep);
+                currentStep -= stepSize;
+                bar.GetComponent<DrinkBar>().PrepareBar(item, 2);
+            }
         }
     }
 
@@ -213,5 +271,20 @@ public class DrinkPicker : MonoBehaviour
         backToIngredients.SetActive(false);
         recipeDisplay.DisplayRecipe(drink.recipe);
         backToStartButton.DisplayBackButton(false);
+    }
+
+    public void CreateMissingOnePartList()
+    {
+        showingMissingOne = !showingMissingOne;
+
+        CreateDrinkList();
+    }
+
+    public void CreateMissingTwoPartList()
+    {
+        showingMissingOne = true;
+        showingMissingTwo = !showingMissingTwo;
+
+        CreateDrinkList();
     }
 }
