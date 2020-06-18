@@ -71,14 +71,9 @@ public class DrinkPicker : MonoBehaviour
     void CreatAlkoholList(List<Drink.Alkohol> items)
     {
         items.Sort();
-        float currentStep = 0f, stepSize = alkoholBar.GetComponent<RectTransform>().sizeDelta.y + 25f;
-        content.GetComponent<RectTransform>().sizeDelta = new Vector2(content.GetComponent<RectTransform>().sizeDelta.x, stepSize * items.Count - 25f);
-        currentStep = (content.GetComponent<RectTransform>().sizeDelta.y / 2f) - (alkoholBar.GetComponent<RectTransform>().sizeDelta.y / 2f);
         foreach (Drink.Alkohol item in items)
         {
             GameObject bar = Instantiate(alkoholBar, content.transform);
-            bar.GetComponent<RectTransform>().anchoredPosition = new Vector2(0f, currentStep);
-            currentStep -= stepSize;
             bar.GetComponent<AlkoholBar>().PrepareBar(item);
         }
     }
@@ -92,16 +87,16 @@ public class DrinkPicker : MonoBehaviour
         List<Drink.Ingredient> items = new List<Drink.Ingredient>();
         foreach (Drink drink in drinks)
         {
-            bool selectedAllAlkohols = true;
-            foreach (Drink.Alkohol alkohol in drink.alkohols)
-            {
-                if (!currentlySelectedAlkohol.Contains(alkohol))
-                {
-                    selectedAllAlkohols = false;
-                }
-            }
-            if (selectedAllAlkohols)
-            {
+            //bool selectedAllAlkohols = true;
+            //foreach (Drink.Alkohol alkohol in drink.alkohols)
+            //{
+            //    if (!currentlySelectedAlkohol.Contains(alkohol))
+            //    {
+            //        selectedAllAlkohols = false;
+            //    }
+            //}
+            //if (selectedAllAlkohols)
+            //{
                 foreach (Drink.Ingredient ingredient in drink.ingredients)
                 {
                     if (!items.Contains(ingredient))
@@ -109,7 +104,7 @@ public class DrinkPicker : MonoBehaviour
                         items.Add(ingredient);
                     }
                 }
-            }
+            //}
         }
 
         CreateIngredientList(items);
@@ -125,14 +120,9 @@ public class DrinkPicker : MonoBehaviour
     void CreateIngredientList(List<Drink.Ingredient> items)
     {
         items.Sort();
-        float currentStep = 0f, stepSize = ingredientBar.GetComponent<RectTransform>().sizeDelta.y + 25f;
-        content.GetComponent<RectTransform>().sizeDelta = new Vector2(content.GetComponent<RectTransform>().sizeDelta.x, stepSize * items.Count - 25f);
-        currentStep = (content.GetComponent<RectTransform>().sizeDelta.y / 2f) - (ingredientBar.GetComponent<RectTransform>().sizeDelta.y / 2f);
         foreach (Drink.Ingredient item in items)
         {
             GameObject bar = Instantiate(ingredientBar, content.transform);
-            bar.GetComponent<RectTransform>().anchoredPosition = new Vector2(0f, currentStep);
-            currentStep -= stepSize;
             bar.GetComponent<IngredientBar>().PrepareBar(item);
         }
     }
@@ -215,40 +205,35 @@ public class DrinkPicker : MonoBehaviour
             itemCount += missingTwoPartDrinks.Count;
         }
 
-        float stepSize = drinkBar.GetComponent<RectTransform>().sizeDelta.y + 25f;
         foreach(DrinkBar obj in content.GetComponentsInChildren<DrinkBar>())
         {
             Destroy(obj.gameObject);
         }
-        content.GetComponent<RectTransform>().sizeDelta = new Vector2(content.GetComponent<RectTransform>().sizeDelta.x, stepSize * itemCount - 25f);
-        float currentStep = (content.GetComponent<RectTransform>().sizeDelta.y / 2f) - (drinkBar.GetComponent<RectTransform>().sizeDelta.y / 2f);
         foreach (Drink item in haveEverythingDrinks)
         {
             GameObject bar = Instantiate(drinkBar, content.transform);
-            bar.GetComponent<RectTransform>().anchoredPosition = new Vector2(0f, currentStep);
-            currentStep -= stepSize;
             bar.GetComponent<DrinkBar>().PrepareBar(item);
         }
-        if (showingMissingOne)
-        {
-            foreach (Drink item in missingOnePartDrinks)
-            {
-                GameObject bar = Instantiate(drinkBar, content.transform);
-                bar.GetComponent<RectTransform>().anchoredPosition = new Vector2(0f, currentStep);
-                currentStep -= stepSize;
-                bar.GetComponent<DrinkBar>().PrepareBar(item, 1);
-            }
-        }
-        if (showingMissingTwo)
-        {
-            foreach (Drink item in missingTwoPartDrinks)
-            {
-                GameObject bar = Instantiate(drinkBar, content.transform);
-                bar.GetComponent<RectTransform>().anchoredPosition = new Vector2(0f, currentStep);
-                currentStep -= stepSize;
-                bar.GetComponent<DrinkBar>().PrepareBar(item, 2);
-            }
-        }
+        //if (showingMissingOne)
+        //{
+        //    foreach (Drink item in missingOnePartDrinks)
+        //    {
+        //        GameObject bar = Instantiate(drinkBar, content.transform);
+        //        //bar.GetComponent<RectTransform>().anchoredPosition = new Vector2(0f, currentStep);
+        //        //currentStep -= stepSize;
+        //        bar.GetComponent<DrinkBar>().PrepareBar(item, 1);
+        //    }
+        //}
+        //if (showingMissingTwo)
+        //{
+        //    foreach (Drink item in missingTwoPartDrinks)
+        //    {
+        //        GameObject bar = Instantiate(drinkBar, content.transform);
+        //        //bar.GetComponent<RectTransform>().anchoredPosition = new Vector2(0f, currentStep);
+        //        //currentStep -= stepSize;
+        //        bar.GetComponent<DrinkBar>().PrepareBar(item, 2);
+        //    }
+        //}
     }
 
     void ClearTheList()
