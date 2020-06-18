@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 [CreateAssetMenu(fileName = "Coctail", menuName = "", order = 1)]
+[Serializable]
 public class Drink : ScriptableObject, IComparable<Drink>
 {
     public enum Alkohol
@@ -18,6 +19,7 @@ public class Drink : ScriptableObject, IComparable<Drink>
         //Jagermeister
     }
 
+    [Serializable]
     public enum Ingredient
     {
         Absinthe,
@@ -104,7 +106,11 @@ public class Drink : ScriptableObject, IComparable<Drink>
         DonsMix,
         SageLeaves,
         MontenegroAmaro,
-        VelvetFalernum
+        VelvetFalernum,
+        GreekYoghurt,
+        RaspberryJam,
+        Watermelon,
+        Chambord
     }
 
     public List<Alkohol> alkohols;

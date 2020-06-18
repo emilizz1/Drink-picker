@@ -1,6 +1,8 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using System.IO;
 using System.Reflection;
+using System.Runtime.Serialization.Formatters.Binary;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -49,6 +51,7 @@ public class DrinkPicker : MonoBehaviour
         backToStartButton = FindObjectOfType<BackToStartButton>();
 
         CreateAlkoholsList();
+        LoadIngredients();
     }
 
     public void CreateAlkoholsList()
@@ -87,24 +90,13 @@ public class DrinkPicker : MonoBehaviour
         List<Drink.Ingredient> items = new List<Drink.Ingredient>();
         foreach (Drink drink in drinks)
         {
-            //bool selectedAllAlkohols = true;
-            //foreach (Drink.Alkohol alkohol in drink.alkohols)
-            //{
-            //    if (!currentlySelectedAlkohol.Contains(alkohol))
-            //    {
-            //        selectedAllAlkohols = false;
-            //    }
-            //}
-            //if (selectedAllAlkohols)
-            //{
-                foreach (Drink.Ingredient ingredient in drink.ingredients)
+            foreach (Drink.Ingredient ingredient in drink.ingredients)
+            {
+                if (!items.Contains(ingredient))
                 {
-                    if (!items.Contains(ingredient))
-                    {
-                        items.Add(ingredient);
-                    }
+                    items.Add(ingredient);
                 }
-            //}
+            }
         }
 
         CreateIngredientList(items);
@@ -185,7 +177,7 @@ public class DrinkPicker : MonoBehaviour
         if (haveEverythingDrinks.Count > 0)
         {
             haveEverythingDrinks.Sort();
-        } 
+        }
         if (missingOnePartDrinks.Count > 0)
         {
             missingOnePartDrinks.Sort();
@@ -205,7 +197,7 @@ public class DrinkPicker : MonoBehaviour
             itemCount += missingTwoPartDrinks.Count;
         }
 
-        foreach(DrinkBar obj in content.GetComponentsInChildren<DrinkBar>())
+        foreach (DrinkBar obj in content.GetComponentsInChildren<DrinkBar>())
         {
             Destroy(obj.gameObject);
         }
@@ -271,5 +263,26 @@ public class DrinkPicker : MonoBehaviour
         showingMissingTwo = !showingMissingTwo;
 
         CreateDrinkList();
+    }
+
+    public void SaveIngredients()
+    {
+        PlayerPrefs.SetInt("IngredientsAmount", currentlySelectedIngredient.Count);
+        for (int i = 0; i < currentlySelectedIngredient.Count; i++)
+        {
+            PlayerPrefs.SetInt(i.ToString(), (int)currentlySelectedIngredient[i]);
+        }
+    }
+
+    public void LoadIngredients()
+    {
+        if (PlayerPrefs.GetInt("IngredientsAmount") != 0)
+        {
+            currentlySelectedIngredient = new List<Drink.Ingredient>();
+            for (int i = 0; i < PlayerPrefs.GetInt("IngredientsAmount"); i++)
+            {
+                currentlySelectedIngredient.Add((Drink.Ingredient)PlayerPrefs.GetInt(i.ToString()));
+            }
+        }
     }
 }
